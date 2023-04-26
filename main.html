@@ -5,68 +5,41 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<style>
-
 		body{
-			background-color: #f5f5f5;
-		}
-		.header{
-			margin-left: 55px ;
-		}
-
-		.testimonial1,.testimonial2{
-			position: relative;
-			background-color: rgb(242, 238, 238);
-			height: auto;
-			padding: 35px;
-		
-			margin-left: 50px;
-			margin-right: 50px;
-			border: 1px solid rgb(106, 105, 105);
-			border-radius: 5px;
-			box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-		}
-
-		.testimonial1{
-			margin-bottom: 30px;
-		}
-
-
-		.author1{
-			float: right;
-			position:absolute;
-			right:40px;
-			bottom: 15px;
-			font-style: italic;
-		}
-
-		.author2{
-			float: right;
-			position:absolute;
-			right:40px;
-			bottom: 15px;
-			font-style: italic;
-		}
-
-		.quote{
-			width: 70%;
-		}
-		
-		
-		
+	background-color:#f5f5f5;
+}
+.content1, .content2{
+	width: 100%;
+	background-color:white;
+	padding: 20px;
+	margin:10px;
+	border: 1px solid #f5f5f5;	
+}
+.content1 .author1{
+	text-align:right;
+	font-style:italic;
+}
+.content2 .author2{
+	text-align:right;
+	font-style:italic;
+}
 	</style>
 </head>
 
 <body>
+	<h1>Testimonials</h1>
+	<div class="container">
+			<div class="content1">
+			<p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
+			<p class="author1">-John Doe</p>
+		</div>
+		<div class="content2">
+			<p>I have been using this for a few weeks now and it has completely transformed my worflow.</p>
+			<p class="author2">-Jane Smith</p>
+		</div>
+	</div>
+	
 	<!-- the entire body must be written by student -->
-	<div class="header"><h1>Testimonials</h1></div>
-	<div class="testimonial1">
-		<p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam saepe facere ipsam omnis fuga, pariatur explicabo voluptatibus dolorem cupiditate impedit, consequuntur harum adipisci officia magni quidem, nemo iure animi? Rerum!</p>
-		<p class="author1">-John Doe</p>
-	</div>
-	<div class="testimonial2">
-		<p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam saepe facere ipsam omnis fuga, pariatur explicabo voluptatibus dolorem cupiditate impedit, consequuntur harum adipisci officia magni quidem, nemo iure animi? Rerum!</p>
-		<p class="author2">-Jane Smith</p>
-	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
